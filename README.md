@@ -13,10 +13,23 @@ This repository has four independent parts:
 
 2- The code used for Task II,III, and IV: identifying, counting, and describing animals in images (phase 2 folder)
 
-3- The code used for Task II only, all the transfer learning experiments for task II used this part of the repo (phase2_recognition_only)
+3- The code used for Task II only, (all the transfer learning experiments for Task II used this part of the repo) (phase2_recognition_only folder)
 
 4- resize.py is used for resizing the input images for all the other parts
 
 
 For more information on how to use this repo please refer to the base repo at this link: https://github.com/arashno/tensorflow_multigpu_imagenet
 
+Pre-trained models could be found at the following links:
+
+Phase 1 (VGG architecture):
+
+http://www.cs.uwyo.edu/~mnorouzz/share/pretrained/phase1.zip
+
+Phase 2 (ResNet-152 architecture):
+
+http://www.cs.uwyo.edu/~mnorouzz/share/pretrained/phase2.zip
+
+Phase 2 recognition only (ResNet-152 architecture):
+
+http://www.cs.uwyo.edu/~mnorouzz/share/pretrained/phase2_recognition_only.zip
