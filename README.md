@@ -10,8 +10,11 @@ Most of the code in this repository is taken from here: https://github.com/arash
 This repository has four independent parts:
 
 1- The code used for Task I: Detecting Images That Contain Animals (phase1 folder)
+
 2- The code used for Task II,III, and IV: identifying, counting, and describing animals in images (phase 2 folder)
+
 3- The code used for Task II only, all the transfer learning experiments for task II used this part of the repo (phase2_recognition_only)
+
 4- resize.py is used for resizing the input images for all the other parts
 
 
