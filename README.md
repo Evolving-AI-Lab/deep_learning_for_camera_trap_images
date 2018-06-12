@@ -3,7 +3,7 @@ This repository contains the code used for the following paper:
 
 Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning
 
-Authors: Mohammad Sadegh Norouzzadeh, Anh Nguyen, Margaret Kosmala, Ali Swanson, Meredith Palmer, Craig Packer, Jeff Clune
+Authors: [Mohammad Sadegh Norouzzadeh](arash.norouzzadeh.com), Anh Nguyen, Margaret Kosmala, Ali Swanson, Meredith Palmer, Craig Packer, Jeff Clune
 
 Most of the code in this repository is taken from here: https://github.com/arashno/tensorflow_multigpu_imagenet
 
