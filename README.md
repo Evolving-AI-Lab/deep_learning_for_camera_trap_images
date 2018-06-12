@@ -6,6 +6,7 @@ This repository contains the code used for the following paper:
 Authors: [Mohammad Sadegh Norouzzadeh](http://arash.norouzzadeh.com), Anh Nguyen, Margaret Kosmala, Ali Swanson, Meredith Palmer, Craig Packer, Jeff Clune
 
 **If you use this code in an academic article, please cite the following paper:**
+```
 	@article {Norouzzadeh201719367,
 		author = {Norouzzadeh, Mohammad Sadegh and Nguyen, Anh and Kosmala, Margaret and Swanson, Alexandra and Palmer, Meredith S. and Packer, Craig and Clune, Jeff},
 		title = {Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning},
@@ -17,6 +18,7 @@ Authors: [Mohammad Sadegh Norouzzadeh](http://arash.norouzzadeh.com), Anh Nguyen
 		eprint = {http://www.pnas.org/content/early/2018/06/04/1719367115.full.pdf},
 		journal = {Proceedings of the National Academy of Sciences}
 	}
+```
 
 Most of the code in this repository is taken from [here](https://github.com/arashno/tensorflow_multigpu_imagenet)
 
