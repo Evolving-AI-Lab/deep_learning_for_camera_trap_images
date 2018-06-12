@@ -1,11 +1,25 @@
 # deep_learning_for_camera_trap_images
 This repository contains the code used for the following paper:
 
-Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning
+[Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning](http://www.pnas.org/content/early/2018/06/04/1719367115)
 
-Authors: [Mohammad Sadegh Norouzzadeh](arash.norouzzadeh.com), Anh Nguyen, Margaret Kosmala, Ali Swanson, Meredith Palmer, Craig Packer, Jeff Clune
+Authors: [Mohammad Sadegh Norouzzadeh](http://arash.norouzzadeh.com), Anh Nguyen, Margaret Kosmala, Ali Swanson, Meredith Palmer, Craig Packer, Jeff Clune
 
-Most of the code in this repository is taken from here: https://github.com/arashno/tensorflow_multigpu_imagenet
+**If you use this software in an academic article, please consider citing:**
+
+@article {Norouzzadeh201719367,
+	author = {Norouzzadeh, Mohammad Sadegh and Nguyen, Anh and Kosmala, Margaret and Swanson, Alexandra and Palmer, Meredith S. and Packer, Craig and Clune, Jeff},
+	title = {Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning},
+	year = {2018},
+	doi = {10.1073/pnas.1719367115},
+	publisher = {National Academy of Sciences},
+	issn = {0027-8424},
+	URL = {http://www.pnas.org/content/early/2018/06/04/1719367115},
+	eprint = {http://www.pnas.org/content/early/2018/06/04/1719367115.full.pdf},
+	journal = {Proceedings of the National Academy of Sciences}
+}
+
+Most of the code in this repository is taken from [here](https://github.com/arashno/tensorflow_multigpu_imagenet)
 
 This repository has four independent parts:
 
@@ -18,18 +32,35 @@ This repository has four independent parts:
 4- resize.py is used for resizing the input images for all the other parts
 
 
-For more information on how to use this repo please refer to the base repo at this link: https://github.com/arashno/tensorflow_multigpu_imagenet
+For more information on how to use this repo please refer to the base repo at [this link](https://github.com/arashno/tensorflow_multigpu_imagenet)
 
+## 1. Requirements
+
+### Requirements
+To use this code, you will need to install the following:
+* Python 2.7
+* Tenorflow 
+* NumPy
+* SciPy
+* MatPlot Lib
+
+### 2. Running
 Pre-trained models could be found at the following links:
 
-Phase 1 (VGG architecture):
+* Phase 1 (VGG architecture):
 
-http://www.cs.uwyo.edu/~mnorouzz/share/pretrained/phase1.zip
+** http://www.cs.uwyo.edu/~mnorouzz/share/pretrained/phase1.zip
 
-Phase 2 (ResNet-152 architecture):
+* Phase 2 (ResNet-152 architecture):
 
-http://www.cs.uwyo.edu/~mnorouzz/share/pretrained/phase2.zip
+** http://www.cs.uwyo.edu/~mnorouzz/share/pretrained/phase2.zip
 
-Phase 2 recognition only (ResNet-152 architecture):
+* Phase 2 recognition only (ResNet-152 architecture):
 
-http://www.cs.uwyo.edu/~mnorouzz/share/pretrained/phase2_recognition_only.zip
+** http://www.cs.uwyo.edu/~mnorouzz/share/pretrained/phase2_recognition_only.zip
+
+## 3. Licenses
+This code is licensed under MIT License. 
+
+## 4. Questions?
+For questions/suggestions, feel free to [email](mailto:arash.norouzzadeh@gmail.com), tweet to [@anh_ng8](https://twitter.com/arashnorouzzade) or create a github issue. 
