@@ -49,12 +49,15 @@ To use this code, you will need to install the following:
 Pre-trained models could be found at the following links:
 
 * Phase 1 (VGG architecture):
+
 https://drive.google.com/open?id=19MG7NY_pnQH2egAfEEr-yTlFteoMXe9Y
 
 * Phase 2 (ResNet-152 architecture):
+
 https://drive.google.com/open?id=15oXo7Zm1N9LXMFg0zuxgRM6FJoF-X2BU
 
 * Phase 2 recognition only (ResNet-152 architecture):
+
 https://drive.google.com/open?id=1xYgfIUS2IBKCDpcXCZCDjoEzn63dAWc1
 
 ## 3. Licenses
