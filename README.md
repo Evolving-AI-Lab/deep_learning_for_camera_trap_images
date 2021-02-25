@@ -50,15 +50,15 @@ Pre-trained models could be found at the following links:
 
 * Phase 1 (VGG architecture):
 
-https://drive.google.com/open?id=19MG7NY_pnQH2egAfEEr-yTlFteoMXe9Y
+https://drive.google.com/file/d/1Y-aDWNMfvgYUb-u-_cqzibZ6ePFOOLGj/view?usp=sharing
 
 * Phase 2 (ResNet-152 architecture):
 
-https://drive.google.com/open?id=15oXo7Zm1N9LXMFg0zuxgRM6FJoF-X2BU
+https://drive.google.com/file/d/1KTV9dmqkv0xrheIOEkPXbqeg36_rXJ_E/view?usp=sharing
 
 * Phase 2 recognition only (ResNet-152 architecture):
 
-https://drive.google.com/open?id=1xYgfIUS2IBKCDpcXCZCDjoEzn63dAWc1
+https://drive.google.com/file/d/1cAcnyBTO5JeB2zSaEoGBWf0Jd-jAnguS/view?usp=sharing
 
 ## 3. Licenses
 This code is licensed under MIT License. 
