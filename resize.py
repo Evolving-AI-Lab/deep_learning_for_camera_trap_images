@@ -6,6 +6,7 @@ import scipy.misc
 import numpy as np
 import os
 import glob
+from PIL import Image
 from multiprocessing import Process
 
 src_dir= "/project/EvolvingAI/mnorouzz/Serengiti/SER/S6/"
@@ -24,14 +25,15 @@ def do_chunk(pid,filelist):
           print(co)
           sys.stdout.flush()
         img=mpimg.imread(row)
-        img=scipy.misc.imresize(img[0:-100,:],(256,256))
+        img=np.array(Image.fromarray(img[0:-100,:]).resize((256,256),resample=Image.Resampling.BICUBIC))
         path=dst_dir+str(row[len(src_dir):row.rfind('/')])
 
         if not os.path.exists(path):
           os.makedirs(path)
         mpimg.imsave(dst_dir+row[len(src_dir):],img)
-      except:
-        print 'Severe Error for'+row
+      except Exception as e:
+        print ('Severe Error for'+row)
+        print (f'Exception {e}')
         #raise
     print("Process "+str(pid)+"  is done")
 
